@@ -1,0 +1,61 @@
+/* Sidebar Container */
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 250px;
+    background-color: #2b2d42;
+    padding: 20px 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* List Styling */
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* List Items */
+  .sidebar li {
+    margin-bottom: 8px;
+    padding: 0 15px;
+  }
+  
+  /* Link Styling */
+  .sidebar a {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    color: #edf2f4;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Hover Effect */
+  .sidebar a:hover {
+    background-color: #3a3e58;
+    transform: translateX(5px);
+  }
+  
+  /* Active Link Styling */
+  .sidebar a.active {
+    background-color: #404466;
+    font-weight: 600;
+    border-left: 4px solid #ef233c;
+    transform: translateX(0);
+  }
+  
+  /* Optional: Add a logo/brand section */
+  .sidebar-brand {
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+  }

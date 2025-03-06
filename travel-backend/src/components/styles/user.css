@@ -1,0 +1,82 @@
+    /* Container Styling */
+.package-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Filter Section */
+  .filter-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .filter-section button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .filter-section button:hover {
+    background: #0056b3;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background: #d7d7d7;
+    color: black;
+    text-transform: uppercase;
+  }
+  
+  tr:hover {
+    background: #f1f1f1;
+  }
+  
+  /* Paragraph */
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .package-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .filter-section {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    table, th, td {
+      font-size: 14px;
+    }
+  }
+  
